@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h2>Guitar Page</h2>
+    <h3 id = 'main'> My Dream Guitar Collection: </h3>
+
+
+    <p id = 'main'> This is the description
+    </p>
+
+
+    <h1>Here is a picture of my dream guitar!</h1>
+    <img src="https://www.tomleemusic.ca/media/catalog/product/cache/7b59eeedc8a9391b10c489498e31e772/s/c/sc13especial.jpg" alt="" width = 500>
+
+
+    <p>Current Guitar Collection: </p>
+    <ol>
+        <li>Cordoba C9</li>
+        <li>Matin SC-13E</li>
+    </ol>
+
+
+
+    <button id = "navigateButton">Go to Home Page</button>
+    <script>
+        const navigateButton = document.getElementById('navigateButton')
+        navigateButton.addEventListener('click', function(){
+            window.location.href = 'Home.html'
+        })
+    </script>
+
+
+</body>
+</html>
